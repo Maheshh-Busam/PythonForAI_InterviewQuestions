@@ -29,7 +29,7 @@
 - System instructions, few-shot examples.
 - Structured outputs and schema validation.
 - Retries, timeouts, rate limits, fallback models.
-- Streaming responses....
+- Streaming responses.
 
 **6. Embeddings and vector search**
 
