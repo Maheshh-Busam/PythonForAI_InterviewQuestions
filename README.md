@@ -45,5 +45,3 @@
 - Retrieval, top-k, metadata filters.
 - Grounded answers and source citations.
 - Handling questions when the answer isn't in the documents.
-
-
