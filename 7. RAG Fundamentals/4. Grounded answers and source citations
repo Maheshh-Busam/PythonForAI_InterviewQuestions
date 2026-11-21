@@ -1,0 +1,21 @@
+What is a grounded answer in RAG?
+Why should an LLM generate answers only from retrieved context?
+What is hallucination in RAG?
+How does RAG reduce hallucinations?
+Can RAG completely eliminate hallucinations?
+What is grounding in LLM applications?
+How do we pass retrieved documents to an LLM?
+How do we structure the context supplied to an LLM?
+What instructions should be included in a RAG system prompt?
+How do we ensure that the answer is based on retrieved documents?
+What are source citations in RAG?
+Why are citations important?
+How do we associate generated answers with their source documents?
+How do we track page numbers and document references?
+How do we generate citations for individual chunks?
+How do we verify whether a citation supports a generated statement?
+What is citation accuracy?
+How do we handle answers that use information from multiple documents?
+How do we prevent the LLM from inventing citations?
+How do we return answers along with source document names and page numbers?
+How would you design a reliable citation mechanism for a production RAG application?

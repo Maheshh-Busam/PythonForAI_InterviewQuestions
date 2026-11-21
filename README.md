@@ -37,3 +37,13 @@
 - Vector distance and nearest-neighbor search.
 - PostgreSQL + pgvector.
 - Chunking text and storing metadata.
+
+**7. RAG fundamentals**
+
+- Document ingestion: PDF, text, HTML.
+- Chunk size and overlap.
+- Retrieval, top-k, metadata filters.
+- Grounded answers and source citations.
+- Handling questions when the answer isn't in the documents.
+
+

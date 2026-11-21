@@ -1,0 +1,197 @@
+
+Document ingestion: PDF, text, HTML
+------------------------------------
+
+# Write a Python program to read a .txt file
+# and extract its complete text content.
+
+# Write a Python program to extract text
+# from a PDF file using PyMuPDF.
+
+# Write a Python program to extract text
+# from every page of a PDF separately.
+
+# Extract text from a PDF and preserve
+# the page number along with the extracted content.
+
+# Write a Python program to extract text
+# from an HTML file using BeautifulSoup.
+
+# Remove script, style, navigation, and unnecessary
+# HTML elements before extracting the page text.
+
+# Create a reusable document loader function
+# that supports PDF, TXT, and HTML files.
+
+# Create a document object containing:
+# document_id, file_name, content, file_type,
+# source, and metadata.
+
+# Write a program to process multiple files
+# from a directory and extract their text.
+
+# Write a program to detect empty documents
+# and skip them during ingestion.
+
+# Write a program to identify duplicate documents
+# using file hashes.
+
+# Build a FastAPI endpoint that accepts a PDF or TXT
+# upload and extracts its text.
+
+---------------------------------------------------------
+
+Chunk size and overlap
+-----------------------
+
+# Write a function to split a long document
+# into fixed-size character chunks.
+
+# Write a function to split text into chunks
+# with a configurable overlap.
+
+# Write a program that accepts chunk_size and overlap
+# as parameters and returns document chunks.
+
+# Split a document into chunks while preserving
+# paragraph boundaries.
+
+# Split a document into sentence-based chunks
+# without breaking sentences unnecessarily.
+
+# Implement recursive character text splitting
+# using configurable separators.
+
+# Write a program to attach chunk_id,
+# document_id, and page_number to every chunk.
+
+# Write a program to remove empty chunks
+# and chunks containing only whitespace.
+
+# Write a program to prevent duplicate chunks
+# during document processing.
+
+# Write a function that accepts a list of documents
+# and returns chunks for every document separately.
+
+# Implement a chunking pipeline that preserves
+# document name, source, page number, and chunk order.
+
+-----------------------------------------------------
+
+Retrieval, top-K, and metadata filters
+----------------------------------------
+
+# Generate an embedding for a user query
+# using an embedding model API.
+
+# Generate embeddings for multiple document chunks
+# and store them in a list.
+
+# Implement cosine similarity between
+# a query embedding and document embeddings.
+
+# Write a function to retrieve the top 3 most
+# similar document chunks from a list of vectors.
+
+# Implement top-K retrieval with a configurable K value.
+
+# Implement similarity threshold filtering
+# to exclude low-relevance document chunks.
+
+# Write a function to retrieve document chunks
+# based on both similarity and metadata filters.
+
+# Retrieve chunks belonging only to a specific
+# document_id or category.
+
+# Implement a basic keyword search function
+# over a collection of document chunks.
+
+# Combine keyword search and vector search
+# to implement basic hybrid retrieval.
+
+# Write a function to remove duplicate results
+# from retrieved chunks.
+
+# Implement a retrieval function that returns
+# chunk content, similarity score, and metadata.
+
+# Connect PostgreSQL with pgvector and retrieve
+# the top 5 similar chunks for a user query.
+
+# Write a SQL query to perform vector similarity
+# search with a metadata filter.
+
+-----------------------------------------------------
+
+Grounded answers and source citations
+--------------------------------------
+
+# Write a function that combines retrieved chunks
+# into a context string for an LLM prompt.
+
+# Build a RAG prompt containing:
+# system instructions, retrieved context, and user query.
+
+# Write a function that sends retrieved context
+# to an LLM and generates an answer.
+
+# Implement a prompt that instructs the LLM
+# to answer only using the supplied context.
+
+# Write a program to generate an answer
+# along with the source document name.
+
+# Build a citation structure containing:
+# document_id, file_name, page_number, and chunk_id.
+
+# Write a function to attach source citations
+# to an LLM-generated response.
+
+# Return an API response containing:
+# answer, source_documents, page_numbers, and citations.
+
+# Write a function to validate whether
+# the generated citations refer to retrieved chunks.
+
+# Build a FastAPI endpoint that accepts a question
+# and returns a grounded answer with source references.
+
+-------------------------------------------------------------
+
+Handling questions when the answer isn't in the documents
+-----------------------------------------------------------
+
+# Write a function to check whether retrieved
+# documents contain any relevant results.
+
+# Implement a similarity threshold check
+# before sending retrieved context to the LLM.
+
+# Write a RAG prompt that instructs the LLM
+# to respond with "I don't know" when the answer
+# is not available in the supplied context.
+
+# Implement a function that returns a fallback
+# response when no relevant chunks are retrieved.
+
+# Write a function to handle questions where
+# only part of the answer is available in the context.
+
+# Implement a check to detect when retrieved
+# documents contain conflicting information.
+
+# Build a response structure that includes:
+# answer, confidence_status, and source_documents.
+
+# Write a function that classifies a query as:
+# answerable, partially_answerable, or unanswerable.
+
+# Implement a RAG pipeline that refuses to answer
+# when retrieved context is insufficient.
+
+# Build a complete RAG question-answering endpoint
+# with retrieval, context validation, grounded generation,
+# citations, and fallback responses.
+

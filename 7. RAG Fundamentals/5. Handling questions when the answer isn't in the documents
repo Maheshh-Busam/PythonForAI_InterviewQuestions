@@ -1,0 +1,20 @@
+What happens when a user's question is not answered by the retrieved documents?
+How should a RAG application respond when relevant information is unavailable?
+What is an abstention mechanism in RAG?
+What is a fallback response?
+How do we decide whether retrieved context is sufficient to answer a question?
+What is a similarity threshold, and how can it help detect insufficient context?
+Why is similarity score alone not always enough to determine answerability?
+How do we prevent the LLM from answering using its general knowledge?
+How do we instruct an LLM to say "I don't know"?
+How do we handle partially answered questions?
+How do we handle questions that contain incorrect assumptions?
+How do we handle ambiguous user questions?
+How do we distinguish between irrelevant retrieval and missing information?
+How do we handle conflicting information across documents?
+What should happen when two documents provide different answers?
+How do we communicate uncertainty to users?
+How do we handle questions outside the document collection?
+How do we implement a fallback to another information source?
+How do we evaluate whether a RAG system correctly refuses to answer?
+How would you build a RAG system that never invents an answer when information is missing?

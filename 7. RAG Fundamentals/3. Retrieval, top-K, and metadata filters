@@ -1,0 +1,27 @@
+What is retrieval in RAG?
+How does the retrieval process work?
+What happens between receiving a user query and retrieving relevant documents?
+What is semantic search?
+What is vector search?
+What is top-K retrieval?
+How do we decide the value of K?
+What happens if K is too small?
+What happens if K is too large?
+What is a similarity threshold?
+How is similarity threshold different from top-K retrieval?
+What is metadata filtering?
+Why do we use metadata filters?
+What types of metadata can be stored with document chunks?
+How do we combine vector search with metadata filtering?
+What is hybrid search?
+What is the difference between keyword search and semantic search?
+How does hybrid search improve retrieval?
+What is reranking?
+Why do we need a reranking model?
+What is the difference between retrieval and reranking?
+What is context precision?
+What is context recall?
+How do we evaluate retrieval quality?
+What happens when the retriever returns irrelevant chunks?
+How do we avoid retrieving duplicate chunks?
+How would you optimize retrieval for a large document collection?

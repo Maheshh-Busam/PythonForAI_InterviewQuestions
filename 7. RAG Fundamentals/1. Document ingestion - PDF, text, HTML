@@ -1,0 +1,23 @@
+What is document ingestion in RAG?
+What is a document ingestion pipeline?
+Why is document ingestion important in a RAG application?
+What are the different document formats supported by RAG systems?
+How do we extract text from PDF documents?
+How do we extract text from HTML pages?
+How do we read and process plain text files?
+What Python libraries can be used to extract text from PDFs?
+What is the difference between PyPDF and PyMuPDF?
+How do we extract text from scanned PDFs?
+What is OCR?
+How do we handle PDFs containing tables and images?
+How do we remove unnecessary HTML tags and scripts?
+How do we clean extracted document text?
+How do we handle empty or corrupted documents?
+How do we preserve document structure during ingestion?
+How do we extract document metadata?
+How do we handle multiple file uploads?
+How do we avoid ingesting duplicate documents?
+How do we handle document updates and deletions?
+How do we build a reusable document loader?
+What is the difference between document loading and document processing?
+How would you design an ingestion pipeline for thousands of documents?

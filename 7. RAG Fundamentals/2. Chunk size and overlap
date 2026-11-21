@@ -1,0 +1,22 @@
+Why do we split documents into chunks in RAG?
+What is chunking?
+What is chunk size?
+What is chunk overlap?
+Why is overlap important?
+How do we decide the appropriate chunk size?
+Should chunk size be measured in characters, words, or tokens?
+What happens when chunks are too small?
+What happens when chunks are too large?
+How does chunk size affect retrieval quality?
+How does chunk size affect LLM context usage?
+What is fixed-size chunking?
+What is recursive character text splitting?
+What is sentence-based chunking?
+What is semantic chunking?
+What is parent-child chunking?
+What is the difference between chunking and summarization?
+How do we preserve context between adjacent chunks?
+How do we handle headings and paragraphs while chunking?
+How do we handle tables and code blocks during chunking?
+How would you choose chunk size for technical documentation?
+How would you optimize chunk size for long PDF documents?
